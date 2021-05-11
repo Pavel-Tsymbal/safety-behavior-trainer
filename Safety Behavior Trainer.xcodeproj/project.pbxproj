@@ -13,7 +13,7 @@
 		22F36C312647272B00C3D45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F36C2F2647272B00C3D45A /* Main.storyboard */; };
 		22F36C332647272D00C3D45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F36C322647272D00C3D45A /* Assets.xcassets */; };
 		22F36C362647272D00C3D45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F36C342647272D00C3D45A /* LaunchScreen.storyboard */; };
-		22F36C3F264AD27500C3D45A /* DangerousStranngersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C3E264AD27500C3D45A /* DangerousStranngersController.swift */; };
+		22F36C3F264AD27500C3D45A /* DangerousStrangersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C3E264AD27500C3D45A /* DangerousStrangersController.swift */; };
 		22F36C41264ADC9E00C3D45A /* DangerousStrangersBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C40264ADC9E00C3D45A /* DangerousStrangersBrain.swift */; };
 		22F36C44264AE1B900C3D45A /* StrangerStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C43264AE1B900C3D45A /* StrangerStory.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		22F36C322647272D00C3D45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F36C352647272D00C3D45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F36C372647272D00C3D45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22F36C3E264AD27500C3D45A /* DangerousStranngersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousStranngersController.swift; sourceTree = "<group>"; };
+		22F36C3E264AD27500C3D45A /* DangerousStrangersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousStrangersController.swift; sourceTree = "<group>"; };
 		22F36C40264ADC9E00C3D45A /* DangerousStrangersBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousStrangersBrain.swift; sourceTree = "<group>"; };
 		22F36C43264AE1B900C3D45A /* StrangerStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangerStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				22F36C2D2647272B00C3D45A /* MainViewController.swift */,
-				22F36C3E264AD27500C3D45A /* DangerousStranngersController.swift */,
+				22F36C3E264AD27500C3D45A /* DangerousStrangersController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F36C2E2647272B00C3D45A /* MainViewController.swift in Sources */,
-				22F36C3F264AD27500C3D45A /* DangerousStranngersController.swift in Sources */,
+				22F36C3F264AD27500C3D45A /* DangerousStrangersController.swift in Sources */,
 				22F36C41264ADC9E00C3D45A /* DangerousStrangersBrain.swift in Sources */,
 				22F36C2A2647272B00C3D45A /* AppDelegate.swift in Sources */,
 				22F36C2C2647272B00C3D45A /* SceneDelegate.swift in Sources */,

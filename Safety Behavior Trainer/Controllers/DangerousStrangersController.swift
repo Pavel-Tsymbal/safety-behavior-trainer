@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DangerousStranngersController: UIViewController {
+class DangerousStrangersController: UIViewController {
     
     @IBOutlet weak var storyTitle: UILabel!
     @IBOutlet weak var storyImage: UIImageView!
@@ -21,8 +21,7 @@ class DangerousStranngersController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateView()
-    }
-    
+    }    
  
     @IBAction func closeButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
@@ -31,7 +30,6 @@ class DangerousStranngersController: UIViewController {
     @IBAction func previousButtonPressed(_ sender: UIButton) {
         dangerousStrangersBrain.previousStory()
         updateView()
-        
     }
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {

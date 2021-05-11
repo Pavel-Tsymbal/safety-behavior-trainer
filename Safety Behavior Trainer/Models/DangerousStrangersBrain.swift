@@ -23,8 +23,7 @@ struct DangerousStraingersBrain {
     mutating func previousStory() -> Void {
         if currentStoryNumber > 0 {
             currentStoryNumber -= 1
-        }
-        
+        }        
     }
     
     func isLastStory() -> Bool {
