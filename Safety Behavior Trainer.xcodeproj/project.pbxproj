@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220CA641264DBEC500891134 /* MyKnowledgeStageOneEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CA640264DBEC500891134 /* MyKnowledgeStageOneEntity.swift */; };
+		220CA643264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CA642264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift */; };
+		22723A67264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */; };
+		22723A69264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */; };
+		22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A6A264F16F5006124DF /* BaseEntityBrain.swift */; };
+		22723A6D264F1A20006124DF /* EntityBrainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A6C264F1A20006124DF /* EntityBrainProtocol.swift */; };
+		22723A72264F2349006124DF /* MyKnowledgeStageThreeBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A71264F2349006124DF /* MyKnowledgeStageThreeBrain.swift */; };
+		22723A74264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A73264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift */; };
+		22E09FCF2655A5F300DD328A /* MyKnowledgeStageOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */; };
+		22E09FD12655A77700DD328A /* MyKnowledgeStageTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */; };
+		22E09FD32655A7FF00DD328A /* MyKnowledgeStageThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */; };
+		22E09FD52655AB7800DD328A /* MyKnowledgeStageFourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD42655AB7800DD328A /* MyKnowledgeStageFourController.swift */; };
 		22F36C2A2647272B00C3D45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C292647272B00C3D45A /* AppDelegate.swift */; };
 		22F36C2C2647272B00C3D45A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C2B2647272B00C3D45A /* SceneDelegate.swift */; };
 		22F36C2E2647272B00C3D45A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F36C2D2647272B00C3D45A /* MainViewController.swift */; };
@@ -19,6 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220CA640264DBEC500891134 /* MyKnowledgeStageOneEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneEntity.swift; sourceTree = "<group>"; };
+		220CA642264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneBrain.swift; sourceTree = "<group>"; };
+		22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoEntity.swift; sourceTree = "<group>"; };
+		22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoBrain.swift; sourceTree = "<group>"; };
+		22723A6A264F16F5006124DF /* BaseEntityBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntityBrain.swift; sourceTree = "<group>"; };
+		22723A6C264F1A20006124DF /* EntityBrainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityBrainProtocol.swift; sourceTree = "<group>"; };
+		22723A71264F2349006124DF /* MyKnowledgeStageThreeBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeBrain.swift; sourceTree = "<group>"; };
+		22723A73264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeEntity.swift; sourceTree = "<group>"; };
+		22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneController.swift; sourceTree = "<group>"; };
+		22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoController.swift; sourceTree = "<group>"; };
+		22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeController.swift; sourceTree = "<group>"; };
+		22E09FD42655AB7800DD328A /* MyKnowledgeStageFourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageFourController.swift; sourceTree = "<group>"; };
 		22F36C262647272B00C3D45A /* Safety Behavior Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safety Behavior Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F36C292647272B00C3D45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F36C2B2647272B00C3D45A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +67,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22723A6E264F1A33006124DF /* Potocols */ = {
+			isa = PBXGroup;
+			children = (
+				22723A6C264F1A20006124DF /* EntityBrainProtocol.swift */,
+			);
+			path = Potocols;
+			sourceTree = "<group>";
+		};
+		22BD79062656FF740004C082 /* MyKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				220CA640264DBEC500891134 /* MyKnowledgeStageOneEntity.swift */,
+				220CA642264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift */,
+				22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */,
+				22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */,
+				22723A71264F2349006124DF /* MyKnowledgeStageThreeBrain.swift */,
+				22723A73264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift */,
+			);
+			path = MyKnowledge;
+			sourceTree = "<group>";
+		};
+		22BD79072656FF860004C082 /* DangerousStrangers */ = {
+			isa = PBXGroup;
+			children = (
+				22F36C40264ADC9E00C3D45A /* DangerousStrangersBrain.swift */,
+				22F36C43264AE1B900C3D45A /* StrangerStory.swift */,
+			);
+			path = DangerousStrangers;
+			sourceTree = "<group>";
+		};
+		22E09FCD2655A5AE00DD328A /* MyKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */,
+				22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */,
+				22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */,
+				22E09FD42655AB7800DD328A /* MyKnowledgeStageFourController.swift */,
+			);
+			path = MyKnowledge;
+			sourceTree = "<group>";
+		};
 		22F36C1D2647272B00C3D45A = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +135,7 @@
 				22F36C342647272D00C3D45A /* LaunchScreen.storyboard */,
 				22F36C372647272D00C3D45A /* Info.plist */,
 				22F36C42264ADCA400C3D45A /* Models */,
+				22723A6E264F1A33006124DF /* Potocols */,
 			);
 			path = "Safety Behavior Trainer";
 			sourceTree = "<group>";
@@ -77,6 +143,7 @@
 		22F36C3D264AD1F900C3D45A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				22E09FCD2655A5AE00DD328A /* MyKnowledge */,
 				22F36C2D2647272B00C3D45A /* MainViewController.swift */,
 				22F36C3E264AD27500C3D45A /* DangerousStrangersController.swift */,
 			);
@@ -86,8 +153,9 @@
 		22F36C42264ADCA400C3D45A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				22F36C40264ADC9E00C3D45A /* DangerousStrangersBrain.swift */,
-				22F36C43264AE1B900C3D45A /* StrangerStory.swift */,
+				22BD79072656FF860004C082 /* DangerousStrangers */,
+				22BD79062656FF740004C082 /* MyKnowledge */,
+				22723A6A264F16F5006124DF /* BaseEntityBrain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,11 +238,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220CA641264DBEC500891134 /* MyKnowledgeStageOneEntity.swift in Sources */,
+				22723A6D264F1A20006124DF /* EntityBrainProtocol.swift in Sources */,
+				220CA643264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift in Sources */,
 				22F36C2E2647272B00C3D45A /* MainViewController.swift in Sources */,
+				22723A74264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift in Sources */,
+				22723A67264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift in Sources */,
+				22E09FD32655A7FF00DD328A /* MyKnowledgeStageThreeController.swift in Sources */,
 				22F36C3F264AD27500C3D45A /* DangerousStrangersController.swift in Sources */,
 				22F36C41264ADC9E00C3D45A /* DangerousStrangersBrain.swift in Sources */,
+				22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */,
+				22E09FD52655AB7800DD328A /* MyKnowledgeStageFourController.swift in Sources */,
+				22E09FCF2655A5F300DD328A /* MyKnowledgeStageOneController.swift in Sources */,
 				22F36C2A2647272B00C3D45A /* AppDelegate.swift in Sources */,
+				22723A72264F2349006124DF /* MyKnowledgeStageThreeBrain.swift in Sources */,
+				22723A69264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift in Sources */,
 				22F36C2C2647272B00C3D45A /* SceneDelegate.swift in Sources */,
+				22E09FD12655A77700DD328A /* MyKnowledgeStageTwoController.swift in Sources */,
 				22F36C44264AE1B900C3D45A /* StrangerStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

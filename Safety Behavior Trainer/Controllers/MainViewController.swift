@@ -13,8 +13,11 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func dangerousStrangersPressed(_ sender: UIButton) {
+    @IBAction func dangerousStrangersButtonPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "dangerousStrangersSegue", sender: self)
+    }
+    @IBAction func myKnowledgeButtonPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "myKnowledgeStageOneSegue", sender: self)
     }
 }
 
