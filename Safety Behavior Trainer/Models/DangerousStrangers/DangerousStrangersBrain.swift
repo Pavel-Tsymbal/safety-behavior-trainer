@@ -7,31 +7,14 @@
 
 import Foundation
 
-struct DangerousStraingersBrain {
-    var currentStoryNumber = 0
+class DangerousStraingersBrain: BaseEntityBrain, EntityBrainProtocol {
     
-    func getCurrentStory() -> StrangerStory {
-        return stories[currentStoryNumber]
+    func getCurrentEntity() -> StrangerStory {
+        return stories[currentEntityNumber]
     }
     
-    mutating func nextStory() -> Void {
-        if !isLastStory() {
-            currentStoryNumber += 1
-        }
-    }
-    
-    mutating func previousStory() -> Void {
-        if currentStoryNumber > 0 {
-            currentStoryNumber -= 1
-        }        
-    }
-    
-    func isLastStory() -> Bool {
-        return currentStoryNumber + 1 == stories.count
-    }
-    
-    func isFirstStory() -> Bool {
-        return currentStoryNumber == 0
+    func isLastEntity() -> Bool {
+        return currentEntityNumber + 1 == stories.count
     }
     
     let stories = [

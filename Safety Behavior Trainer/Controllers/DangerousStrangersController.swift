@@ -23,27 +23,27 @@ class DangerousStrangersController: UIViewController {
         updateView()
     }    
  
-    @IBAction func closeButtonPressed(_ sender: UIButton) {
+    @IBAction func cancelButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func previousButtonPressed(_ sender: UIButton) {
-        dangerousStrangersBrain.previousStory()
+        dangerousStrangersBrain.previousEntity()
         updateView()
     }
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {
-        dangerousStrangersBrain.nextStory()
+        dangerousStrangersBrain.nextEntity()
         updateView()
     }
     
     func updateView() -> Void {
-        storyTitle.text  = dangerousStrangersBrain.getCurrentStory().title
-        storyText.text   = dangerousStrangersBrain.getCurrentStory().text
-        storyImage.image = UIImage(named: dangerousStrangersBrain.getCurrentStory().imageName)
+        storyTitle.text  = dangerousStrangersBrain.getCurrentEntity().title
+        storyText.text   = dangerousStrangersBrain.getCurrentEntity().text
+        storyImage.image = UIImage(named: dangerousStrangersBrain.getCurrentEntity().imageName)
         
-        previousStoryButton.isHidden = dangerousStrangersBrain.isFirstStory()
-        nextStoryButton.isHidden     = dangerousStrangersBrain.isLastStory()
+        previousStoryButton.isHidden = dangerousStrangersBrain.isFirstEntity()
+        nextStoryButton.isHidden     = dangerousStrangersBrain.isLastEntity()
     }
     
 }
