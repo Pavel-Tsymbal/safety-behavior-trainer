@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Р®бг≠Ѓ™4.png",
+      "filename" : "policeman.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Р®бг≠Ѓ™4@2x.png",
+      "filename" : "policeman@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Р®бг≠Ѓ™4@3x.png",
+      "filename" : "policeman@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

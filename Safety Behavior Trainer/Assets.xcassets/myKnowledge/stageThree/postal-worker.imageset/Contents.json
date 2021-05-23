@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Р®бг≠Ѓ™2.png",
+      "filename" : "postal-worker.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Р®бг≠Ѓ™2@2x.png",
+      "filename" : "postal-worker@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Р®бг≠Ѓ™2@3x.png",
+      "filename" : "postal-worker@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
