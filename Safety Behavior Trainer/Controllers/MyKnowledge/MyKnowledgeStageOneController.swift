@@ -58,13 +58,13 @@ class MyKnowledgeStageOneController: UIViewController {
     }
     
     func updateFirstStageButtons() -> Void {
-        stageOneTrueButton.backgroundColor  = UIColor.clear
+        stageOneTrueButton.backgroundColor  = #colorLiteral(red: 0.6666666667, green: 0.5882352941, blue: 0.8549019608, alpha: 1)
         stageOneTrueButton.layer.cornerRadius = 0.5 * stageOneTrueButton.bounds.size.width
         stageOneTrueButton.clipsToBounds = true
         stageOneTrueButton.layer.borderWidth = 1.0
         stageOneTrueButton.layer.borderColor = #colorLiteral(red: 0.6666666667, green: 0.5882352941, blue: 0.8549019608, alpha: 1)
         
-        stageOneFalseButton.backgroundColor = UIColor.clear
+        stageOneFalseButton.backgroundColor = #colorLiteral(red: 0.6666666667, green: 0.5882352941, blue: 0.8549019608, alpha: 1)
         stageOneFalseButton.layer.cornerRadius = 0.5 * stageOneFalseButton.bounds.size.width
         stageOneFalseButton.clipsToBounds = true
         stageOneFalseButton.layer.borderWidth = 1.0
