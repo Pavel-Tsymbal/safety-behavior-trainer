@@ -9,12 +9,35 @@
 /* Begin PBXBuildFile section */
 		220CA641264DBEC500891134 /* MyKnowledgeStageOneEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CA640264DBEC500891134 /* MyKnowledgeStageOneEntity.swift */; };
 		220CA643264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CA642264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift */; };
+		220E000D267916F5005B62BD /* Игры.docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E000C267916F5005B62BD /* Игры.docx */; };
+		220E000F267916FE005B62BD /* Консультация «Незнакомец за дверью».docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E000E267916FE005B62BD /* Консультация «Незнакомец за дверью».docx */; };
+		220E00112679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E00102679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx */; };
+		220E001326791729005B62BD /* Личная безопасность.docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E001226791729005B62BD /* Личная безопасность.docx */; };
+		221E88392674A249005FF153 /* PoemsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E88382674A249005FF153 /* PoemsBrain.swift */; };
+		221E883B2674A27C005FF153 /* Poem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E883A2674A27C005FF153 /* Poem.swift */; };
+		221E883F2675FA5E005FF153 /* AdditionalMateerialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E883E2675FA5E005FF153 /* AdditionalMateerialsViewController.swift */; };
+		221E8841267610E3005FF153 /* CartoonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E8840267610E3005FF153 /* CartoonsListViewController.swift */; };
+		221E884426762C72005FF153 /* CartoonsListBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E884326762C72005FF153 /* CartoonsListBrain.swift */; };
+		221E884726762ED1005FF153 /* CartoonsListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E884626762ED1005FF153 /* CartoonsListEntity.swift */; };
+		221E8849267652E1005FF153 /* CartoonsSubListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E8848267652E1005FF153 /* CartoonsSubListViewController.swift */; };
+		221E884B26767DBB005FF153 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E884A26767DBB005FF153 /* MemoViewController.swift */; };
+		221E884E26767F76005FF153 /* MemoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E884D26767F76005FF153 /* MemoBrain.swift */; };
+		221E885B2676AC5A005FF153 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E885A2676AC5A005FF153 /* QuestionsViewController.swift */; };
 		22723A67264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */; };
 		22723A69264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */; };
 		22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A6A264F16F5006124DF /* BaseEntityBrain.swift */; };
 		22723A6D264F1A20006124DF /* EntityBrainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A6C264F1A20006124DF /* EntityBrainProtocol.swift */; };
 		22723A72264F2349006124DF /* MyKnowledgeStageThreeBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A71264F2349006124DF /* MyKnowledgeStageThreeBrain.swift */; };
 		22723A74264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A73264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift */; };
+		22835F92265A959A00D6A11E /* EntertainmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22835F91265A959A00D6A11E /* EntertainmentsViewController.swift */; };
+		22835F95265A9E4D00D6A11E /* FairyTailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22835F94265A9E4D00D6A11E /* FairyTailViewController.swift */; };
+		22835F97265A9F5000D6A11E /* CartoonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22835F96265A9F5000D6A11E /* CartoonsViewController.swift */; };
+		22835F99265AA2C600D6A11E /* PoemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22835F98265AA2C600D6A11E /* PoemsViewController.swift */; };
+		22835F9B265AAB0400D6A11E /* FairyTailsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22835F9A265AAB0400D6A11E /* FairyTailsBrain.swift */; };
+		22835F9D265AAB9F00D6A11E /* FairyTailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22835F9C265AAB9F00D6A11E /* FairyTailEntity.swift */; };
+		228FDA7C26747A7800357042 /* CartoonsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDA7B26747A7800357042 /* CartoonsBrain.swift */; };
+		228FDA7E26747A8700357042 /* CartoonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDA7D26747A8700357042 /* CartoonEntity.swift */; };
+		228FDA812674956D00357042 /* ParentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDA802674956D00357042 /* ParentsViewController.swift */; };
 		22E09FCF2655A5F300DD328A /* MyKnowledgeStageOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */; };
 		22E09FD12655A77700DD328A /* MyKnowledgeStageTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */; };
 		22E09FD32655A7FF00DD328A /* MyKnowledgeStageThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */; };
@@ -33,12 +56,35 @@
 /* Begin PBXFileReference section */
 		220CA640264DBEC500891134 /* MyKnowledgeStageOneEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneEntity.swift; sourceTree = "<group>"; };
 		220CA642264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneBrain.swift; sourceTree = "<group>"; };
+		220E000C267916F5005B62BD /* Игры.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Игры.docx"; sourceTree = "<group>"; };
+		220E000E267916FE005B62BD /* Консультация «Незнакомец за дверью».docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Консультация «Незнакомец за дверью».docx"; sourceTree = "<group>"; };
+		220E00102679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Консультация для родителей Охрана жизни и здоровья детей.docx"; sourceTree = "<group>"; };
+		220E001226791729005B62BD /* Личная безопасность.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Личная безопасность.docx"; sourceTree = "<group>"; };
+		221E88382674A249005FF153 /* PoemsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemsBrain.swift; sourceTree = "<group>"; };
+		221E883A2674A27C005FF153 /* Poem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poem.swift; sourceTree = "<group>"; };
+		221E883E2675FA5E005FF153 /* AdditionalMateerialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalMateerialsViewController.swift; sourceTree = "<group>"; };
+		221E8840267610E3005FF153 /* CartoonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsListViewController.swift; sourceTree = "<group>"; };
+		221E884326762C72005FF153 /* CartoonsListBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsListBrain.swift; sourceTree = "<group>"; };
+		221E884626762ED1005FF153 /* CartoonsListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsListEntity.swift; sourceTree = "<group>"; };
+		221E8848267652E1005FF153 /* CartoonsSubListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsSubListViewController.swift; sourceTree = "<group>"; };
+		221E884A26767DBB005FF153 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		221E884D26767F76005FF153 /* MemoBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoBrain.swift; sourceTree = "<group>"; };
+		221E885A2676AC5A005FF153 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoEntity.swift; sourceTree = "<group>"; };
 		22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoBrain.swift; sourceTree = "<group>"; };
 		22723A6A264F16F5006124DF /* BaseEntityBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntityBrain.swift; sourceTree = "<group>"; };
 		22723A6C264F1A20006124DF /* EntityBrainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityBrainProtocol.swift; sourceTree = "<group>"; };
 		22723A71264F2349006124DF /* MyKnowledgeStageThreeBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeBrain.swift; sourceTree = "<group>"; };
 		22723A73264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeEntity.swift; sourceTree = "<group>"; };
+		22835F91265A959A00D6A11E /* EntertainmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentsViewController.swift; sourceTree = "<group>"; };
+		22835F94265A9E4D00D6A11E /* FairyTailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairyTailViewController.swift; sourceTree = "<group>"; };
+		22835F96265A9F5000D6A11E /* CartoonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsViewController.swift; sourceTree = "<group>"; };
+		22835F98265AA2C600D6A11E /* PoemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemsViewController.swift; sourceTree = "<group>"; };
+		22835F9A265AAB0400D6A11E /* FairyTailsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairyTailsBrain.swift; sourceTree = "<group>"; };
+		22835F9C265AAB9F00D6A11E /* FairyTailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairyTailEntity.swift; sourceTree = "<group>"; };
+		228FDA7B26747A7800357042 /* CartoonsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsBrain.swift; sourceTree = "<group>"; };
+		228FDA7D26747A8700357042 /* CartoonEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonEntity.swift; sourceTree = "<group>"; };
+		228FDA802674956D00357042 /* ParentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentsViewController.swift; sourceTree = "<group>"; };
 		22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneController.swift; sourceTree = "<group>"; };
 		22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoController.swift; sourceTree = "<group>"; };
 		22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeController.swift; sourceTree = "<group>"; };
@@ -67,12 +113,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221E88362674A1FF005FF153 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				221E884C26767F5D005FF153 /* Memo */,
+				221E884226762C29005FF153 /* Cartoons */,
+				221E88372674A20F005FF153 /* Poems */,
+			);
+			path = Parents;
+			sourceTree = "<group>";
+		};
+		221E88372674A20F005FF153 /* Poems */ = {
+			isa = PBXGroup;
+			children = (
+				221E88382674A249005FF153 /* PoemsBrain.swift */,
+				221E883A2674A27C005FF153 /* Poem.swift */,
+			);
+			path = Poems;
+			sourceTree = "<group>";
+		};
+		221E884226762C29005FF153 /* Cartoons */ = {
+			isa = PBXGroup;
+			children = (
+				221E884326762C72005FF153 /* CartoonsListBrain.swift */,
+				221E884626762ED1005FF153 /* CartoonsListEntity.swift */,
+			);
+			path = Cartoons;
+			sourceTree = "<group>";
+		};
+		221E884C26767F5D005FF153 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				221E884D26767F76005FF153 /* MemoBrain.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
 		22723A6E264F1A33006124DF /* Potocols */ = {
 			isa = PBXGroup;
 			children = (
 				22723A6C264F1A20006124DF /* EntityBrainProtocol.swift */,
 			);
 			path = Potocols;
+			sourceTree = "<group>";
+		};
+		22733ED1267296CC009C91FE /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				220E001226791729005B62BD /* Личная безопасность.docx */,
+				220E00102679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx */,
+				220E000E267916FE005B62BD /* Консультация «Незнакомец за дверью».docx */,
+				220E000C267916F5005B62BD /* Игры.docx */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		22835F93265A9DF600D6A11E /* Entertainments */ = {
+			isa = PBXGroup;
+			children = (
+				22835F91265A959A00D6A11E /* EntertainmentsViewController.swift */,
+				22835F94265A9E4D00D6A11E /* FairyTailViewController.swift */,
+				22835F96265A9F5000D6A11E /* CartoonsViewController.swift */,
+			);
+			path = Entertainments;
+			sourceTree = "<group>";
+		};
+		228FDA792674799C00357042 /* FaityTales */ = {
+			isa = PBXGroup;
+			children = (
+				22835F9A265AAB0400D6A11E /* FairyTailsBrain.swift */,
+				22835F9C265AAB9F00D6A11E /* FairyTailEntity.swift */,
+			);
+			path = FaityTales;
+			sourceTree = "<group>";
+		};
+		228FDA7A26747A5A00357042 /* Cartoons */ = {
+			isa = PBXGroup;
+			children = (
+				228FDA7B26747A7800357042 /* CartoonsBrain.swift */,
+				228FDA7D26747A8700357042 /* CartoonEntity.swift */,
+			);
+			path = Cartoons;
+			sourceTree = "<group>";
+		};
+		228FDA7F2674955B00357042 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				22835F98265AA2C600D6A11E /* PoemsViewController.swift */,
+				228FDA802674956D00357042 /* ParentsViewController.swift */,
+				221E883E2675FA5E005FF153 /* AdditionalMateerialsViewController.swift */,
+				221E8840267610E3005FF153 /* CartoonsListViewController.swift */,
+				221E8848267652E1005FF153 /* CartoonsSubListViewController.swift */,
+				221E884A26767DBB005FF153 /* MemoViewController.swift */,
+				221E885A2676AC5A005FF153 /* QuestionsViewController.swift */,
+			);
+			path = Parents;
 			sourceTree = "<group>";
 		};
 		22BD79062656FF740004C082 /* MyKnowledge */ = {
@@ -127,6 +262,7 @@
 		22F36C282647272B00C3D45A /* Safety Behavior Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				22733ED1267296CC009C91FE /* Documents */,
 				22F36C292647272B00C3D45A /* AppDelegate.swift */,
 				22F36C2B2647272B00C3D45A /* SceneDelegate.swift */,
 				22F36C3D264AD1F900C3D45A /* Controllers */,
@@ -143,9 +279,11 @@
 		22F36C3D264AD1F900C3D45A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				228FDA7F2674955B00357042 /* Parents */,
 				22E09FCD2655A5AE00DD328A /* MyKnowledge */,
 				22F36C2D2647272B00C3D45A /* MainViewController.swift */,
 				22F36C3E264AD27500C3D45A /* DangerousStrangersController.swift */,
+				22835F93265A9DF600D6A11E /* Entertainments */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,9 +291,12 @@
 		22F36C42264ADCA400C3D45A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				221E88362674A1FF005FF153 /* Parents */,
+				228FDA7A26747A5A00357042 /* Cartoons */,
 				22BD79072656FF860004C082 /* DangerousStrangers */,
 				22BD79062656FF740004C082 /* MyKnowledge */,
 				22723A6A264F16F5006124DF /* BaseEntityBrain.swift */,
+				228FDA792674799C00357042 /* FaityTales */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,8 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F36C362647272D00C3D45A /* LaunchScreen.storyboard in Resources */,
+				220E00112679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx in Resources */,
 				22F36C332647272D00C3D45A /* Assets.xcassets in Resources */,
+				220E000F267916FE005B62BD /* Консультация «Незнакомец за дверью».docx in Resources */,
+				220E001326791729005B62BD /* Личная безопасность.docx in Resources */,
 				22F36C312647272B00C3D45A /* Main.storyboard in Resources */,
+				220E000D267916F5005B62BD /* Игры.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,21 +384,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				220CA641264DBEC500891134 /* MyKnowledgeStageOneEntity.swift in Sources */,
+				22835F99265AA2C600D6A11E /* PoemsViewController.swift in Sources */,
+				22835F9D265AAB9F00D6A11E /* FairyTailEntity.swift in Sources */,
+				221E884426762C72005FF153 /* CartoonsListBrain.swift in Sources */,
 				22723A6D264F1A20006124DF /* EntityBrainProtocol.swift in Sources */,
 				220CA643264DC0BE00891134 /* MyKnowledgeStageOneBrain.swift in Sources */,
 				22F36C2E2647272B00C3D45A /* MainViewController.swift in Sources */,
 				22723A74264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift in Sources */,
 				22723A67264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift in Sources */,
+				228FDA7C26747A7800357042 /* CartoonsBrain.swift in Sources */,
 				22E09FD32655A7FF00DD328A /* MyKnowledgeStageThreeController.swift in Sources */,
+				221E8849267652E1005FF153 /* CartoonsSubListViewController.swift in Sources */,
+				221E883B2674A27C005FF153 /* Poem.swift in Sources */,
 				22F36C3F264AD27500C3D45A /* DangerousStrangersController.swift in Sources */,
+				221E88392674A249005FF153 /* PoemsBrain.swift in Sources */,
+				22835F95265A9E4D00D6A11E /* FairyTailViewController.swift in Sources */,
 				22F36C41264ADC9E00C3D45A /* DangerousStrangersBrain.swift in Sources */,
+				221E884726762ED1005FF153 /* CartoonsListEntity.swift in Sources */,
+				228FDA812674956D00357042 /* ParentsViewController.swift in Sources */,
+				221E8841267610E3005FF153 /* CartoonsListViewController.swift in Sources */,
+				221E884E26767F76005FF153 /* MemoBrain.swift in Sources */,
 				22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */,
 				22E09FD52655AB7800DD328A /* MyKnowledgeStageFourController.swift in Sources */,
+				221E883F2675FA5E005FF153 /* AdditionalMateerialsViewController.swift in Sources */,
+				221E885B2676AC5A005FF153 /* QuestionsViewController.swift in Sources */,
+				22835F92265A959A00D6A11E /* EntertainmentsViewController.swift in Sources */,
 				22E09FCF2655A5F300DD328A /* MyKnowledgeStageOneController.swift in Sources */,
+				228FDA7E26747A8700357042 /* CartoonEntity.swift in Sources */,
 				22F36C2A2647272B00C3D45A /* AppDelegate.swift in Sources */,
 				22723A72264F2349006124DF /* MyKnowledgeStageThreeBrain.swift in Sources */,
+				22835F97265A9F5000D6A11E /* CartoonsViewController.swift in Sources */,
 				22723A69264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift in Sources */,
 				22F36C2C2647272B00C3D45A /* SceneDelegate.swift in Sources */,
+				22835F9B265AAB0400D6A11E /* FairyTailsBrain.swift in Sources */,
+				221E884B26767DBB005FF153 /* MemoViewController.swift in Sources */,
 				22E09FD12655A77700DD328A /* MyKnowledgeStageTwoController.swift in Sources */,
 				22F36C44264AE1B900C3D45A /* StrangerStory.swift in Sources */,
 			);
@@ -403,6 +567,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4HR38JPF9;
 				INFOPLIST_FILE = "Safety Behavior Trainer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,6 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4HR38JPF9;
 				INFOPLIST_FILE = "Safety Behavior Trainer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

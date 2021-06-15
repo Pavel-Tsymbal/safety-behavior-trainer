@@ -45,7 +45,7 @@ class MyKnowledgeStageThreeBrain: BaseEntityBrain, EntityBrainProtocol {
         MyKnowledgeStageThreeEntity(
             title: "ГЕРОИ КАКИХ ПРОИЗВЕДЕНИЙ НЕ ЗНАЛИ ПРАВИЛ ОБЩЕНИЯ С НЕЗНАКОМЦАМИ?",
             images: ["cat-leo", "circle-body", "red-heat", "prince"],
-            answers: [false, true, false, false],
+            answers: [false, true, true, false],
             labels: ["КОТ ЛЕОПОЛЬД", "КОЛОБОК", "КРАСНАЯ ШАПОЧКА", "ВОВКА"]
         ),
         MyKnowledgeStageThreeEntity(
@@ -61,7 +61,7 @@ class MyKnowledgeStageThreeBrain: BaseEntityBrain, EntityBrainProtocol {
             labels: ["СЛАДОСТИ", "ИГРУШКИ", "ПОДАРКИ", "НИЧЕГО"]
         ),
         MyKnowledgeStageThreeEntity(
-            title: "ЧТО ДЕЛАТЬ, ЕСЛИ ТЕБЯ ПЫТАЮТСЯ УВЕСТИ ССИЛОЙ?",
+            title: "ЧТО ДЕЛАТЬ, ЕСЛИ ТЕБЯ ПЫТАЮТСЯ УВЕСТИ СИЛОЙ?",
             images: ["action-cry", "action-scream", "action-silent", "action-fight"],
             answers: [false, true, false, false],
             labels: ["ПЛАКАТЬ", "КРИЧАТЬ", "МОЛЧАТЬ", "ДРАТЬСЯ"]

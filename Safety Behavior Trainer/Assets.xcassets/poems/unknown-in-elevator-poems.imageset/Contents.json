@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "unknown-in-elevator-poems.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "unknown-in-elevator-poems@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "unknown-in-elevator-poems@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
