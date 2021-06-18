@@ -44,6 +44,20 @@
 		228FDA7C26747A7800357042 /* CartoonsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDA7B26747A7800357042 /* CartoonsBrain.swift */; };
 		228FDA7E26747A8700357042 /* CartoonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDA7D26747A8700357042 /* CartoonEntity.swift */; };
 		228FDA812674956D00357042 /* ParentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDA802674956D00357042 /* ParentsViewController.swift */; };
+		22DC6291267D0E970080D7C8 /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC6290267D0E970080D7C8 /* GamesListViewController.swift */; };
+		22DC6294267D0FD20080D7C8 /* GamesListBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC6293267D0FD20080D7C8 /* GamesListBrain.swift */; };
+		22DC6296267D0FE70080D7C8 /* GameEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC6295267D0FE70080D7C8 /* GameEntity.swift */; };
+		22DC62A2267D1B330080D7C8 /* Дорога домой.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC6297267D1B320080D7C8 /* Дорога домой.docx */; };
+		22DC62A3267D1B330080D7C8 /* Защита.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC6298267D1B320080D7C8 /* Защита.docx */; };
+		22DC62A4267D1B330080D7C8 /* Методические рекомендации.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC6299267D1B320080D7C8 /* Методические рекомендации.docx */; };
+		22DC62A6267D1B330080D7C8 /* Один дома.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC629B267D1B330080D7C8 /* Один дома.docx */; };
+		22DC62A8267D1B330080D7C8 /* Опасность.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC629D267D1B330080D7C8 /* Опасность.docx */; };
+		22DC62AA267D1B330080D7C8 /* Незнакомец.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC629F267D1B330080D7C8 /* Незнакомец.docx */; };
+		22DC62AB267D1B330080D7C8 /* Машина.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC62A0267D1B330080D7C8 /* Машина.docx */; };
+		22DC62AC267D1B330080D7C8 /* Подкуп.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC62A1267D1B330080D7C8 /* Подкуп.docx */; };
+		22DC62AE267D1BC30080D7C8 /* Телефонный звонок.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC62AD267D1BC30080D7C8 /* Телефонный звонок.docx */; };
+		22DC62B0267D1C060080D7C8 /* Вымогательство.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC62AF267D1C060080D7C8 /* Вымогательство.docx */; };
+		22DC62B2267D1C260080D7C8 /* Если потерялся.docx in Resources */ = {isa = PBXBuildFile; fileRef = 22DC62B1267D1C260080D7C8 /* Если потерялся.docx */; };
 		22E09FCF2655A5F300DD328A /* MyKnowledgeStageOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */; };
 		22E09FD12655A77700DD328A /* MyKnowledgeStageTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */; };
 		22E09FD32655A7FF00DD328A /* MyKnowledgeStageThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */; };
@@ -97,6 +111,20 @@
 		228FDA7B26747A7800357042 /* CartoonsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsBrain.swift; sourceTree = "<group>"; };
 		228FDA7D26747A8700357042 /* CartoonEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonEntity.swift; sourceTree = "<group>"; };
 		228FDA802674956D00357042 /* ParentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentsViewController.swift; sourceTree = "<group>"; };
+		22DC6290267D0E970080D7C8 /* GamesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewController.swift; sourceTree = "<group>"; };
+		22DC6293267D0FD20080D7C8 /* GamesListBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListBrain.swift; sourceTree = "<group>"; };
+		22DC6295267D0FE70080D7C8 /* GameEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntity.swift; sourceTree = "<group>"; };
+		22DC6297267D1B320080D7C8 /* Дорога домой.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Дорога домой.docx"; sourceTree = "<group>"; };
+		22DC6298267D1B320080D7C8 /* Защита.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Защита.docx"; sourceTree = "<group>"; };
+		22DC6299267D1B320080D7C8 /* Методические рекомендации.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Методические рекомендации.docx"; sourceTree = "<group>"; };
+		22DC629B267D1B330080D7C8 /* Один дома.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Один дома.docx"; sourceTree = "<group>"; };
+		22DC629D267D1B330080D7C8 /* Опасность.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Опасность.docx"; sourceTree = "<group>"; };
+		22DC629F267D1B330080D7C8 /* Незнакомец.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Незнакомец.docx"; sourceTree = "<group>"; };
+		22DC62A0267D1B330080D7C8 /* Машина.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Машина.docx"; sourceTree = "<group>"; };
+		22DC62A1267D1B330080D7C8 /* Подкуп.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Подкуп.docx"; sourceTree = "<group>"; };
+		22DC62AD267D1BC30080D7C8 /* Телефонный звонок.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Телефонный звонок.docx"; sourceTree = "<group>"; };
+		22DC62AF267D1C060080D7C8 /* Вымогательство.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Вымогательство.docx"; sourceTree = "<group>"; };
+		22DC62B1267D1C260080D7C8 /* Если потерялся.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Если потерялся.docx"; sourceTree = "<group>"; };
 		22E09FCE2655A5F300DD328A /* MyKnowledgeStageOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageOneController.swift; sourceTree = "<group>"; };
 		22E09FD02655A77700DD328A /* MyKnowledgeStageTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoController.swift; sourceTree = "<group>"; };
 		22E09FD22655A7FF00DD328A /* MyKnowledgeStageThreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageThreeController.swift; sourceTree = "<group>"; };
@@ -148,6 +176,7 @@
 		221E88362674A1FF005FF153 /* Parents */ = {
 			isa = PBXGroup;
 			children = (
+				22DC6292267D0FB70080D7C8 /* Games */,
 				221E884C26767F5D005FF153 /* Memo */,
 				221E884226762C29005FF153 /* Cartoons */,
 				221E88372674A20F005FF153 /* Poems */,
@@ -192,6 +221,17 @@
 		22733ED1267296CC009C91FE /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				22DC62B1267D1C260080D7C8 /* Если потерялся.docx */,
+				22DC62AF267D1C060080D7C8 /* Вымогательство.docx */,
+				22DC62AD267D1BC30080D7C8 /* Телефонный звонок.docx */,
+				22DC6297267D1B320080D7C8 /* Дорога домой.docx */,
+				22DC6298267D1B320080D7C8 /* Защита.docx */,
+				22DC62A0267D1B330080D7C8 /* Машина.docx */,
+				22DC6299267D1B320080D7C8 /* Методические рекомендации.docx */,
+				22DC629F267D1B330080D7C8 /* Незнакомец.docx */,
+				22DC629B267D1B330080D7C8 /* Один дома.docx */,
+				22DC629D267D1B330080D7C8 /* Опасность.docx */,
+				22DC62A1267D1B330080D7C8 /* Подкуп.docx */,
 				220E001226791729005B62BD /* Личная безопасность.docx */,
 				220E00102679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx */,
 				220E000E267916FE005B62BD /* Консультация «Незнакомец за дверью».docx */,
@@ -238,6 +278,7 @@
 				221E8848267652E1005FF153 /* CartoonsSubListViewController.swift */,
 				221E884A26767DBB005FF153 /* MemoViewController.swift */,
 				221E885A2676AC5A005FF153 /* QuestionsViewController.swift */,
+				22DC6290267D0E970080D7C8 /* GamesListViewController.swift */,
 			);
 			path = Parents;
 			sourceTree = "<group>";
@@ -262,6 +303,15 @@
 				22F36C43264AE1B900C3D45A /* StrangerStory.swift */,
 			);
 			path = DangerousStrangers;
+			sourceTree = "<group>";
+		};
+		22DC6292267D0FB70080D7C8 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				22DC6293267D0FD20080D7C8 /* GamesListBrain.swift */,
+				22DC6295267D0FE70080D7C8 /* GameEntity.swift */,
+			);
+			path = Games;
 			sourceTree = "<group>";
 		};
 		22E09FCD2655A5AE00DD328A /* MyKnowledge */ = {
@@ -400,13 +450,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DC62AE267D1BC30080D7C8 /* Телефонный звонок.docx in Resources */,
+				22DC62AA267D1B330080D7C8 /* Незнакомец.docx in Resources */,
 				22F36C362647272D00C3D45A /* LaunchScreen.storyboard in Resources */,
 				220E00112679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx in Resources */,
 				22F36C332647272D00C3D45A /* Assets.xcassets in Resources */,
+				22DC62A3267D1B330080D7C8 /* Защита.docx in Resources */,
+				22DC62A4267D1B330080D7C8 /* Методические рекомендации.docx in Resources */,
+				22DC62A2267D1B330080D7C8 /* Дорога домой.docx in Resources */,
 				220E000F267916FE005B62BD /* Консультация «Незнакомец за дверью».docx in Resources */,
+				22DC62AB267D1B330080D7C8 /* Машина.docx in Resources */,
 				220E001326791729005B62BD /* Личная безопасность.docx in Resources */,
+				22DC62B2267D1C260080D7C8 /* Если потерялся.docx in Resources */,
+				22DC62AC267D1B330080D7C8 /* Подкуп.docx in Resources */,
 				22F36C312647272B00C3D45A /* Main.storyboard in Resources */,
+				22DC62A8267D1B330080D7C8 /* Опасность.docx in Resources */,
 				220E000D267916F5005B62BD /* Игры.docx in Resources */,
+				22DC62B0267D1C060080D7C8 /* Вымогательство.docx in Resources */,
+				22DC62A6267D1B330080D7C8 /* Один дома.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +500,15 @@
 				221E884726762ED1005FF153 /* CartoonsListEntity.swift in Sources */,
 				222D338D26793A4B00DF3392 /* SourceImageEntity.swift in Sources */,
 				228FDA812674956D00357042 /* ParentsViewController.swift in Sources */,
+				22DC6296267D0FE70080D7C8 /* GameEntity.swift in Sources */,
 				221E8841267610E3005FF153 /* CartoonsListViewController.swift in Sources */,
+				22DC6294267D0FD20080D7C8 /* GamesListBrain.swift in Sources */,
 				222D33912679434800DF3392 /* SettingsViewController.swift in Sources */,
 				221E884E26767F76005FF153 /* MemoBrain.swift in Sources */,
 				22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */,
 				22E09FD52655AB7800DD328A /* MyKnowledgeStageFourController.swift in Sources */,
 				221E883F2675FA5E005FF153 /* AdditionalMateerialsViewController.swift in Sources */,
+				22DC6291267D0E970080D7C8 /* GamesListViewController.swift in Sources */,
 				221E885B2676AC5A005FF153 /* QuestionsViewController.swift in Sources */,
 				220E00162679384E005B62BD /* SourceViewController.swift in Sources */,
 				22835F92265A959A00D6A11E /* EntertainmentsViewController.swift in Sources */,

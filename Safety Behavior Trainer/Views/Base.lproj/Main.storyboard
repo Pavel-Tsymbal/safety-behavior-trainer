@@ -351,10 +351,6 @@
                                 <rect key="frame" x="55" y="75" width="322" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speaker.3" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fJk-xh-ARk">
-                                <rect key="frame" x="278" y="14.5" width="59" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8U-P7-ar1">
                                 <rect key="frame" x="37" y="343" width="49" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1249,6 +1245,7 @@
                         <segue destination="bsS-Nx-Yzz" kind="show" identifier="additionalMaterialsSegue" id="8b9-z6-bmu"/>
                         <segue destination="6lf-oS-Ilc" kind="show" identifier="memoSegue" id="1VM-Gr-aaR"/>
                         <segue destination="H9h-6c-Nw7" kind="show" identifier="questionsSegue" id="ICX-5H-evJ"/>
+                        <segue destination="NNs-hZ-wFu" kind="show" identifier="gamesSegue" id="B6Y-Ki-4DP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fah-HI-gjq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1443,6 +1440,44 @@
             </objects>
             <point key="canvasLocation" x="1577.6785714285713" y="2982.608695652174"/>
         </scene>
+        <!--Games List View Controller-->
+        <scene sceneID="7LA-XX-39U">
+            <objects>
+                <viewController id="NNs-hZ-wFu" customClass="GamesListViewController" customModule="Safety_Behavior_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WFY-0Y-M4q">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gf1-rd-aqI">
+                                <rect key="frame" x="106" y="0.0" width="685" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBb-Mp-rnO">
+                                <rect key="frame" x="32" y="20" width="49" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="xmark.circle.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="NNs-hZ-wFu" eventType="touchUpInside" id="Pmg-Lq-6E0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xIQ-H5-5Cj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Htt-8n-eh6"/>
+                    <connections>
+                        <outlet property="tableView" destination="gf1-rd-aqI" id="dXX-zl-PrV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EU0-T8-nzd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="806"/>
+        </scene>
         <!--Poems View Controller-->
         <scene sceneID="TEu-sQ-Pdf">
             <objects>
@@ -1627,7 +1662,6 @@
         <image name="main-view-picture" width="215.5" height="211.5"/>
         <image name="memo-1" width="266.5" height="200"/>
         <image name="numbers" width="199" height="201"/>
-        <image name="speaker.3" catalog="system" width="128" height="86"/>
         <image name="xmark.circle" catalog="system" width="128" height="121"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
         <namedColor name="Background-color">
