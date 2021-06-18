@@ -9,13 +9,9 @@ import UIKit
 import QuickLook
 
 class ParentsViewController: UIViewController, QLPreviewControllerDataSource {
-    
-    var isConsultButtonPressed: Bool = false;
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func cancelButtonPressed(_ sender: UIButton) {
@@ -35,24 +31,21 @@ class ParentsViewController: UIViewController, QLPreviewControllerDataSource {
     }
     
     @IBAction func consultationsButtonPerssed(_ sender: UIButton) {
-        isConsultButtonPressed = true
         preparePreviewController()
     }
     
     @IBAction func gamesButtonPressed(_ sender: UIButton) {
-        isConsultButtonPressed = false
-        preparePreviewController()
+        self.performSegue(withIdentifier: "gamesSegue", sender: self)
     }
     
     func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
-        return isConsultButtonPressed ? 3 : 1
+        return 3
     }
     
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
         
         var fileName: String?
         
-        if isConsultButtonPressed {
             switch index {
             case 0:
                 fileName = "Консультация «Незнакомец за дверью»"
@@ -61,9 +54,6 @@ class ParentsViewController: UIViewController, QLPreviewControllerDataSource {
             default:
                 fileName = "Личная безопасность"
             }
-        } else {
-            fileName = "Игры"
-        }
         
         guard let url = Bundle.main.url(forResource: fileName, withExtension: "docx") else {
             fatalError("Could not load \(fileName!).docx")
