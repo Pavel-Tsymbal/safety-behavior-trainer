@@ -13,6 +13,7 @@
 		220E000F267916FE005B62BD /* Консультация «Незнакомец за дверью».docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E000E267916FE005B62BD /* Консультация «Незнакомец за дверью».docx */; };
 		220E00112679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E00102679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx */; };
 		220E001326791729005B62BD /* Личная безопасность.docx in Resources */ = {isa = PBXBuildFile; fileRef = 220E001226791729005B62BD /* Личная безопасность.docx */; };
+		220E00162679384E005B62BD /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E00152679384E005B62BD /* SourceViewController.swift */; };
 		221E88392674A249005FF153 /* PoemsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E88382674A249005FF153 /* PoemsBrain.swift */; };
 		221E883B2674A27C005FF153 /* Poem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E883A2674A27C005FF153 /* Poem.swift */; };
 		221E883F2675FA5E005FF153 /* AdditionalMateerialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E883E2675FA5E005FF153 /* AdditionalMateerialsViewController.swift */; };
@@ -23,6 +24,11 @@
 		221E884B26767DBB005FF153 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E884A26767DBB005FF153 /* MemoViewController.swift */; };
 		221E884E26767F76005FF153 /* MemoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E884D26767F76005FF153 /* MemoBrain.swift */; };
 		221E885B2676AC5A005FF153 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E885A2676AC5A005FF153 /* QuestionsViewController.swift */; };
+		222D338B26793A3200DF3392 /* SourceImageBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D338A26793A3200DF3392 /* SourceImageBrain.swift */; };
+		222D338D26793A4B00DF3392 /* SourceImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D338C26793A4B00DF3392 /* SourceImageEntity.swift */; };
+		222D338F267941A000DF3392 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D338E267941A000DF3392 /* DrawingViewController.swift */; };
+		222D33912679434800DF3392 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D33902679434800DF3392 /* SettingsViewController.swift */; };
+		222D33932679449800DF3392 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D33922679449800DF3392 /* Pencil.swift */; };
 		22723A67264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */; };
 		22723A69264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */; };
 		22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22723A6A264F16F5006124DF /* BaseEntityBrain.swift */; };
@@ -60,6 +66,7 @@
 		220E000E267916FE005B62BD /* Консультация «Незнакомец за дверью».docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Консультация «Незнакомец за дверью».docx"; sourceTree = "<group>"; };
 		220E00102679171D005B62BD /* Консультация для родителей Охрана жизни и здоровья детей.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Консультация для родителей Охрана жизни и здоровья детей.docx"; sourceTree = "<group>"; };
 		220E001226791729005B62BD /* Личная безопасность.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Личная безопасность.docx"; sourceTree = "<group>"; };
+		220E00152679384E005B62BD /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		221E88382674A249005FF153 /* PoemsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemsBrain.swift; sourceTree = "<group>"; };
 		221E883A2674A27C005FF153 /* Poem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poem.swift; sourceTree = "<group>"; };
 		221E883E2675FA5E005FF153 /* AdditionalMateerialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalMateerialsViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +77,11 @@
 		221E884A26767DBB005FF153 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		221E884D26767F76005FF153 /* MemoBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoBrain.swift; sourceTree = "<group>"; };
 		221E885A2676AC5A005FF153 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		222D338A26793A3200DF3392 /* SourceImageBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceImageBrain.swift; sourceTree = "<group>"; };
+		222D338C26793A4B00DF3392 /* SourceImageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceImageEntity.swift; sourceTree = "<group>"; };
+		222D338E267941A000DF3392 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		222D33902679434800DF3392 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		222D33922679449800DF3392 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
 		22723A66264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoEntity.swift; sourceTree = "<group>"; };
 		22723A68264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKnowledgeStageTwoBrain.swift; sourceTree = "<group>"; };
 		22723A6A264F16F5006124DF /* BaseEntityBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntityBrain.swift; sourceTree = "<group>"; };
@@ -113,6 +125,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220E0014267937F9005B62BD /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				220E00152679384E005B62BD /* SourceViewController.swift */,
+				222D338E267941A000DF3392 /* DrawingViewController.swift */,
+				222D33902679434800DF3392 /* SettingsViewController.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		220E001726793982005B62BD /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				222D338A26793A3200DF3392 /* SourceImageBrain.swift */,
+				222D338C26793A4B00DF3392 /* SourceImageEntity.swift */,
+				222D33922679449800DF3392 /* Pencil.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
 		221E88362674A1FF005FF153 /* Parents */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +311,7 @@
 		22F36C3D264AD1F900C3D45A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				220E0014267937F9005B62BD /* Drawing */,
 				228FDA7F2674955B00357042 /* Parents */,
 				22E09FCD2655A5AE00DD328A /* MyKnowledge */,
 				22F36C2D2647272B00C3D45A /* MainViewController.swift */,
@@ -291,6 +324,7 @@
 		22F36C42264ADCA400C3D45A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				220E001726793982005B62BD /* Drawing */,
 				221E88362674A1FF005FF153 /* Parents */,
 				228FDA7A26747A5A00357042 /* Cartoons */,
 				22BD79072656FF860004C082 /* DangerousStrangers */,
@@ -393,21 +427,26 @@
 				22723A74264F23A2006124DF /* MyKnowledgeStageThreeEntity.swift in Sources */,
 				22723A67264EEC82006124DF /* MyKnowledgeStageTwoEntity.swift in Sources */,
 				228FDA7C26747A7800357042 /* CartoonsBrain.swift in Sources */,
+				222D338B26793A3200DF3392 /* SourceImageBrain.swift in Sources */,
 				22E09FD32655A7FF00DD328A /* MyKnowledgeStageThreeController.swift in Sources */,
 				221E8849267652E1005FF153 /* CartoonsSubListViewController.swift in Sources */,
 				221E883B2674A27C005FF153 /* Poem.swift in Sources */,
 				22F36C3F264AD27500C3D45A /* DangerousStrangersController.swift in Sources */,
+				222D338F267941A000DF3392 /* DrawingViewController.swift in Sources */,
 				221E88392674A249005FF153 /* PoemsBrain.swift in Sources */,
 				22835F95265A9E4D00D6A11E /* FairyTailViewController.swift in Sources */,
 				22F36C41264ADC9E00C3D45A /* DangerousStrangersBrain.swift in Sources */,
 				221E884726762ED1005FF153 /* CartoonsListEntity.swift in Sources */,
+				222D338D26793A4B00DF3392 /* SourceImageEntity.swift in Sources */,
 				228FDA812674956D00357042 /* ParentsViewController.swift in Sources */,
 				221E8841267610E3005FF153 /* CartoonsListViewController.swift in Sources */,
+				222D33912679434800DF3392 /* SettingsViewController.swift in Sources */,
 				221E884E26767F76005FF153 /* MemoBrain.swift in Sources */,
 				22723A6B264F16F5006124DF /* BaseEntityBrain.swift in Sources */,
 				22E09FD52655AB7800DD328A /* MyKnowledgeStageFourController.swift in Sources */,
 				221E883F2675FA5E005FF153 /* AdditionalMateerialsViewController.swift in Sources */,
 				221E885B2676AC5A005FF153 /* QuestionsViewController.swift in Sources */,
+				220E00162679384E005B62BD /* SourceViewController.swift in Sources */,
 				22835F92265A959A00D6A11E /* EntertainmentsViewController.swift in Sources */,
 				22E09FCF2655A5F300DD328A /* MyKnowledgeStageOneController.swift in Sources */,
 				228FDA7E26747A8700357042 /* CartoonEntity.swift in Sources */,
@@ -415,6 +454,7 @@
 				22723A72264F2349006124DF /* MyKnowledgeStageThreeBrain.swift in Sources */,
 				22835F97265A9F5000D6A11E /* CartoonsViewController.swift in Sources */,
 				22723A69264EF6C1006124DF /* MyKnowledgeStageTwoBrain.swift in Sources */,
+				222D33932679449800DF3392 /* Pencil.swift in Sources */,
 				22F36C2C2647272B00C3D45A /* SceneDelegate.swift in Sources */,
 				22835F9B265AAB0400D6A11E /* FairyTailsBrain.swift in Sources */,
 				221E884B26767DBB005FF153 /* MemoViewController.swift in Sources */,

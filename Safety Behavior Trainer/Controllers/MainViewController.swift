@@ -25,5 +25,8 @@ class MainViewController: UIViewController {
     @IBAction func forParentsButtonPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "forParentsSegue", sender: self)
     }
+    @IBAction func drawingButtonPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "drawingSelectImageSegue", sender: self)
+    }
 }
 
